@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.image {
+  position: relative;
+  width: 100%;
+  
+}
+
+/* .link {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+} */
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.width {
+  width: 1200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.h2-overlay {
+  position: absolute;
+  color: black;
+  top: 150px;
+  left: 25%;
+  width: 50%;
+}
+
+.test2-overlay {
+  position: absolute;
+  color: black;
+  top: 80px;
+  left: 15%;
+}
+
+/* .test-color {
+  color: green;
+} */
+
+.sign-in {
+  position: absolute;
+  color: rgb(213, 236, 241);
+  top: 50px;
+  right: 5%;
+  width: 100px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.sign-up {
+  position: absolute;
+  color: rgb(213, 236, 241);
+  top: 80px;
+  right: 5%;
+  width: 100px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 20px;
+  left: 26px;
+}
